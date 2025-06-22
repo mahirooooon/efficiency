@@ -1,0 +1,20 @@
+<h2>絶対位置→相対計算ツール</h2>
+
+<h3>relative要素 (基準画像)</h3>
+<label for="baseX">base_x:</label> <input id="baseX" type="number" step="0.01" value="0"><br>
+<label for="baseY">base_y:</label> <input id="baseY" type="number" step="0.01" value="0"><br>
+<label for="baseWidth">base_width:</label> <input id="baseWidth" type="number" step="0.01" value="0"><br>
+<label for="baseHeight">base_height:</label> <input id="baseHeight" type="number" step="0.01" value="0"><br>
+
+<h3 style="margin-top:20px;">absolute要素</h3>
+<label for="elemWidth">width:</label> <input id="elemWidth" type="number" step="0.01" value="0"><br>
+<label for="elemHeight">height:</label> <input id="elemHeight" type="number" step="0.01" value="0"><br>
+<label for="elemX">x:</label> <input id="elemX" type="number" step="0.01" value="0"><br>
+<label for="elemY">y:</label> <input id="elemY" type="number" step="0.01" value="0"><br>
+
+<button id="calcPosBtn" style="margin-top:10px;">計算</button>
+
+<h3>計算結果:</h3>
+<textarea id="relativeResult" readonly style="width:100%;height:80px;" placeholder="計算後に結果が表示されます"></textarea>
+<button id="copyRelativeBtn">コピーする</button>
+
